@@ -64,13 +64,11 @@ export function Home() {
       }
 
       const data = await response.json();
-      console.log(
-        'Ownership transfer request sent successfully:, new owner should be accept the request',
-        data
-      );
 
       // Step 2: After the new owner accepts the transfer, you can update the role to 'owner'
-      console.log('Wait for the new owner to accept the transfer.');
+      console.log(
+        'Ownership transfer request sent successfully and it is now pending, new owner should be accept the request'
+      );
     } catch (error) {
       console.error('Error requesting ownership transfer:', error);
     }

@@ -34,7 +34,6 @@ export default function Login() {
     console.log('OAuth URL:', oauthUrl);
     window.location.href = oauthUrl;
   }
-  console.log(accessToken);
   return (
     <>
       <button onClick={oauthSignIn}>Oauth Sign In</button>
