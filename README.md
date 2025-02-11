@@ -27,7 +27,7 @@ npm install
 4. Create a new project in Google Console  
 
 
-![alt text](https://raw.githubusercontent.com/fretzestavillo/file-transfer-ownership/main/assets/1.png)
+![alt text](assets/1.png)
 
 
 ![alt text](assets/2.png)
